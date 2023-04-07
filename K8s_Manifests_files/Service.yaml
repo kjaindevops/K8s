@@ -7,8 +7,7 @@ spec:
   # The Service becomes a network endpoint for either other services or
   # maybe external users to connect to (eg Browser).
   selector:
-    app: webapp-pod-service
-    release: "0"
+    app: webapp
 
   ports:
     - name: http
